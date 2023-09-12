@@ -31,11 +31,13 @@ function App() {
           placeholder="Task Name"
           value={newTask.name}
           onChange={(e) => setNewTask({ ...newTask, name: e.target.value })}
+          className="first-form"
         />
         <input
           type="date"
           value={newTask.dueDate}
           onChange={(e) => setNewTask({ ...newTask, dueDate: e.target.value })}
+          className="second-form"
         />
         <button onClick={handleAddTask}>Add Task</button>
       </div>
