@@ -31,6 +31,8 @@ h1 {
 .first-form,
 .second-form {
   margin-bottom: 10px;
+  border: 1px solid #ccc;
+  outline: none;
 }
 .task-input,
 .date-input,
